@@ -50,7 +50,7 @@
   width: 100%;
   z-index: 2;  
   padding:0 10%;
-  font-size:25px;
+  font-size:1.3em;
   color:var(--color-black);
   line-height: 1.5;
   font-family: 'GmarketSansMedium';
@@ -114,7 +114,7 @@
 	font-family: 'Denton Test Medium';
   /* color:var(--color-dark-grey); */
   color:var(--color-black);
-  font-size:1.5em;
+  font-size:1.2em;
   transition: background-size 0.2s ease-in;
   }
 
@@ -263,6 +263,7 @@ height: 48.61vw;
 
 
 @media (max-width: 950px){
+  .work__content{padding:50px; height:250vh;}
 	.work ul li{width:45%; margin-right: 10%;}
 	.work ul li:nth-child(3n){margin-right: 10%;}
 	.work ul li:nth-child(2n){margin-right: 0;}
